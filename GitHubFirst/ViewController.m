@@ -13,5 +13,7 @@
     [super viewDidLoad];
     
     //1.0已完成
+    UIImageView *image = [[UIImageView alloc]init];
+    [self.view addSubview:image];
 }
 @end
